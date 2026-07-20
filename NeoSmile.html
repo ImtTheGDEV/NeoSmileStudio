@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>NeoSmile Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:#050816;color:#fff;overflow-x:hidden}
+body:before{content:'';position:fixed;inset:0;background:
+radial-gradient(circle at 20% 20%,rgba(0,229,255,.15),transparent 30%),
+radial-gradient(circle at 80% 70%,rgba(91,140,255,.15),transparent 35%);
+z-index:-2}
+.grid{position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:40px 40px;z-index:-1}
+header{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+h1{font:700 72px Orbitron,sans-serif}
+span{color:#00e5ff;text-shadow:0 0 20px #00e5ff}
+p{max-width:700px;margin:20px auto;color:#cfd8dc}
+.btn{display:inline-block;padding:15px 35px;border:1px solid #00e5ff;color:#00e5ff;text-decoration:none;border-radius:8px;box-shadow:0 0 20px rgba(0,229,255,.4);transition:.3s}
+.btn:hover{background:#00e5ff;color:#050816}
+section{padding:90px 10%}
+.title{font:700 42px Orbitron,sans-serif;text-align:center;margin-bottom:50px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:25px}
+.card{background:rgba(255,255,255,.05);backdrop-filter:blur(12px);border:1px solid rgba(0,229,255,.2);padding:30px;border-radius:18px;transition:.35s}
+.card:hover{transform:translateY(-10px);box-shadow:0 0 30px rgba(0,229,255,.4)}
+.card h3{color:#00e5ff;margin-bottom:10px}
+.process{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.step{padding:20px 30px;border:1px solid #00e5ff;border-radius:12px}
+footer{text-align:center;padding:40px;background:#08111f;color:#9fb7c8}
+</style>
+</head>
+<body>
+<div class="grid"></div>
+<header>
+<div>
+<h1>Neo<span>Smile</span> Studio</h1>
+<p>Laboratorio Dental Digital del Futuro. Diseño CAD/CAM, impresión 3D, implantología y restauraciones de alta precisión.</p>
+<a class="btn" href="#tech">EXPLORAR TECNOLOGÍA</a>
+</div>
+</header>
+<section id="tech">
+<div class="title">NUESTRO ECOSISTEMA DIGITAL</div>
+<div class="cards">
+<div class="card"><h3>CAD/CAM</h3><p>Diseño digital con precisión micrométrica.</p></div>
+<div class="card"><h3>EXOCAD</h3><p>Flujos de trabajo avanzados para coronas, carillas, incrustaciones, y puentes</p></div>
+<div class="card"><h3>INPRESION 3D</h3><p>Modelos de alta resolución y producción eficiente.</p></div>
+<div class="card"><h3>ZIRCONIO</h3><p>Materiales premium con máxima estética.</p></div>
+</div>
+</section>
+<section>
+<div class="title">FLUJO DE TRABAJO DIGITAL</div>
+<div class="process">
+<div class="step">ESCANEO</div>
+<div class="step">DISEÑO</div>
+<div class="step">IMPRESIÓN</div>
+<div class="step">ACABADO</div>
+<div class="step">ENTREGA</div>
+</div>
+</section>
+
+<section>
+<div class="title">CONTACTO</div>
+<div class="cards">
+<div class="card">
+<h3>📞 Número</h3>
+<p>3027483600</p>
+</div>
+<div class="card">
+<h3>✉️ Correo</h3>
+<p>gabrielartunduaga115@gmail.com</p>
+</div>
+</div>
+</section>
+<footer>NeoSmile Studio • Bogotá, Colombia • Precisión diseñada para sonrisas perfectas</footer>
+</body></html>
